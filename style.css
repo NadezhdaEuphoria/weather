@@ -1,0 +1,88 @@
+body {
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.weather {
+  width: 300px;
+  background-color: rgb(228, 189, 143);
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(202, 160, 112);
+  box-shadow: 4px 4px 8px 0px rgba(85, 58, 22, 0.2);
+  text-align: center;
+}
+
+.first {
+  background-color: rgb(159, 179, 111);
+  width: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: rgba(85, 58, 22, 0.2);
+  text-transform: uppercase;
+  color: antiquewhite;
+  border: none;
+  border-radius: 0.2rem;
+  border: 1px solid rgb(240, 225, 176);
+  padding: 0.5rem 2rem;
+  box-shadow: 4px 4px 8px 0px rgba(85, 58, 22, 0.2);
+}
+
+button:hover {
+  background-color: rgba(235, 136, 6, 1);
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.package-name {
+  text-transform: uppercase;
+}
+
+.price,
+.price1,
+.price2,
+.price3,
+.price4,
+.price5 {
+  font-size: 34px;
+  color: brown;
+  font-weight: 600;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.weatherContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1900px;
+  margin-top: 5%;
+}
+
+.weathersAll {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
