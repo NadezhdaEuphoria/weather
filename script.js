@@ -1,5 +1,5 @@
 fetch(
-  "//api.openweathermap.org/data/2.5/weather?q=Cherkasy,ua&appid=6ac217a57d03a4cbfffefd9449accb53"
+  "https//api.openweathermap.org/data/2.5/weather?q=Cherkasy,ua&appid=6ac217a57d03a4cbfffefd9449accb53"
 )
   .then(function (resp) {
     return resp.json();
@@ -39,7 +39,7 @@ fetch(
   });
 
 fetch(
-  "//api.openweathermap.org/data/2.5/forecast?q=Cherkasy,ua&appid=6ac217a57d03a4cbfffefd9449accb53"
+  "https//api.openweathermap.org/data/2.5/forecast?q=Cherkasy,ua&appid=6ac217a57d03a4cbfffefd9449accb53"
 )
   .then(function (resp) {
     return resp.json();
